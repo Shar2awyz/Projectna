@@ -41,6 +41,7 @@
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
@@ -48,6 +49,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(200, 39);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -57,6 +59,7 @@
             label1.Size = new Size(78, 32);
             label1.TabIndex = 2;
             label1.Text = "label1";
+            label1.Click += label1_Click;
             // 
             // Form1
             // 
